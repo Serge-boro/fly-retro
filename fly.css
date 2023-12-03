@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0; 
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('img/fon12.jpg') no-repeat;
+    background-size: cover;
+}
+article {
+  z-index: 100;
+  width: 50%;
+  max-width: 400px;
+  font-size: 15px;
+  color: white;
+  padding: 20px;
+  border-radius: 0 0 5px 0; 
+  font-family: monospace;
+  position: absolute;
+  width: 100%;
+  color: white;
+  text-shadow: 1px 1px 1px #737373; 
+  background: rgba(0,0,0,0.4);
+}
+
+.article2 {
+  display: none;
+}
+
+#canvas{
+  cursor: none;
+}
+
+#flint {
+  position:  absolute;
+ }
+
+#flint1{
+ position:  absolute; 
+  background: url(img/flint1.png);
+  background-size: cover;
+  width: 15px;
+  height: 60px;
+  margin: -100px -300px;
+  display: none;
+}
+
+#flint2{
+ position:  absolute; 
+  background: url(img/flint3.png);
+  background-size: cover;
+  width: 65px;
+  height: 70px;
+  margin: -100px -300px;
+  display: none;
+}
+
+#flint3{
+ position:  absolute; 
+  background: url(img/flint2.png);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  margin: -100px -300px;
+  display: none;
+}
+
+#heard {
+  position:  absolute;
+  top: 50px;
+  right: 400px;
+}
+
+#heard span {
+   display: block;
+   margin: 10px;
+   float: left;
+   width: 70px;
+   height: 70px;
+   background: url(img/heard.png);
+   background-size: cover;
+ }
+
+ .hide{
+  display: none;
+ }
+
+ .show {
+  display: block;
+ }
