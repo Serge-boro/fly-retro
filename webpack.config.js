@@ -4,7 +4,7 @@ let path = require('path');
 
 module.exports = {
   mode: 'development',
-  entry: './fly.js',
+  entry: './index.js',
   output: {
     filename: 'bundle.js',
     path: __dirname + '/dist'
